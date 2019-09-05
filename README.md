@@ -1,4 +1,20 @@
-# Your custom Twilio Flex Plugin
+# Custom Outgoing SMS Twilio Flex Plugin
+
+Plugin installs a small form that send's an Outgoing SMS.
+
+The body is fixed so that a chatbot can handle the responses.
+
+Outgoing SMS is sent with a Twilio Studio Flow
+
+# Plugin related setup
+
+Duplicate the `.env.example` file. Fill in your Twilio Studio Flow endpoint credentials
+
+- username/account_sid
+- password
+- outgoing phone number
+
+# About Twilio Flex
 
 Twilio Flex Plugins allow you to customize the appearance and behavior of [Twilio Flex](https://www.twilio.com/flex). If you want to learn more about the capabilities and how to use the API, check out our [Flex documentation](https://www.twilio.com/docs/flex).
 
@@ -9,7 +25,7 @@ Make sure you have [Node.js](https://nodejs.org) as well as [`npm`](https://npmj
 Afterwards, install the dependencies by running `npm install`:
 
 ```bash
-cd 
+cd
 
 # If you use npm
 npm install
