@@ -1,0 +1,45 @@
+{
+  "name": "plugin-jason-bot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "bootstrap": "flex-check-start",
+    "build": "craco build",
+    "eject": "craco eject",
+    "postinstall": "npm run bootstrap",
+    "prestart": "npm run bootstrap",
+    "start": "craco start",
+    "test": "craco test --env=jsdom",
+    "coverage": "craco test --env=jsdom --coverage --watchAll=false"
+  },
+  "dependencies": {
+    "@craco/craco": "^5.0.2",
+    "@emotion/core": "^10.0.17",
+    "@emotion/styled": "^10.0.17",
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^2.6.5",
+    "craco-config-flex-plugin": "^2",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "flex-plugin": "^2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "^3.0.0",
+    "react-test-renderer": "^16.8.6"
+  },
+  "devDependencies": {
+    "@twilio/flex-ui": "^1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
