@@ -6,6 +6,8 @@ The body is fixed so that a chatbot can handle the responses.
 
 Outgoing SMS is sent with a Twilio Studio Flow
 
+![Intro image](intro.gif)
+
 # Plugin related setup
 
 Duplicate the `.env.example` file. Fill in your Twilio Studio Flow endpoint credentials
