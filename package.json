@@ -13,7 +13,7 @@
     "coverage": "craco test --env=jsdom --coverage --watchAll=false"
   },
   "dependencies": {
-    "@craco/craco": "^5.0.2",
+    "@craco/craco": "^7.0.0",
     "@emotion/core": "^10.0.17",
     "@emotion/styled": "^10.0.17",
     "babel-polyfill": "^6.26.0",
