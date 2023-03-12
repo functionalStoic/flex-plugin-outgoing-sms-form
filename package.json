@@ -18,7 +18,7 @@
     "@emotion/styled": "^10.0.17",
     "babel-polyfill": "^6.26.0",
     "core-js": "^2.6.5",
-    "craco-config-flex-plugin": "^2",
+    "craco-config-flex-plugin": "^3.0.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "flex-plugin": "^2",
