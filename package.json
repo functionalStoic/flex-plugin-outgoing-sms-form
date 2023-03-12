@@ -28,7 +28,7 @@
     "react-test-renderer": "^16.8.6"
   },
   "devDependencies": {
-    "@twilio/flex-ui": "^1"
+    "@twilio/flex-ui": "^2.0.0"
   },
   "browserslist": {
     "production": [
